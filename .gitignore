@@ -1,0 +1,57 @@
+# dependencies
+/packages/
+/node_modules/
+/bower_components/
+/jspm_packages/
+
+# build outputs
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+build/
+build-browser/
+publish/
+artifacts/
+
+# secrets
+appsettings.Development.json
+secrets.json
+*.secrets.json
+user-secrets/**
+*.pfx
+*.key
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.metaproj
+
+# Rider files
+.idea/
+
+# temporary files
+*.tmp
+*.log
+*.DS_Store
+
+# test results
+/TestResult/
+/testresults/
+*.trx
+*.test-results.xml
+
+# package lock files
+project.lock.json
+project.assets.json
+packages.lock.json
+npm-shrinkwrap.json
+yarn.lock
+
+# nuget packages
+*.nupkg
+*.nuget.props
+*.nuget.targets
